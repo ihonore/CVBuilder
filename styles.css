@@ -1,0 +1,108 @@
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 48px 20px 48px;
+    background-color: rgb(247,247,247);
+    border-bottom: 3px solid white;
+    position: sticky;
+    top:0;
+    z-index: 100;
+    border-top: 4px solid black ;
+}
+.avatar{
+    width: 200px;
+    height: 100px;
+    align-self: baseline;
+}
+.title{
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 20px;
+    
+}
+
+.education{
+    margin-top:50px;
+}
+h1{
+    font-size: 30px;
+    cursor: pointer;
+}
+h2{
+    font-size: 11px;
+    font-family: arial;
+    color: #73808D;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-weight: normal;
+    margin-bottom: -10px;
+}
+
+img{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px rgb(197, 194, 194);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 48px;
+    padding-right: 48px;
+    background-color: rgba(229, 229, 229, .3);
+}
+.sub-headline{
+    font-size: 11px;
+    color: #73808D;
+}
+.left-content{
+    position: relative;
+    width: 480px;
+    font-family: inter;
+    font-size: 14px;
+    line-height: 18px;
+}
+.right-content{
+    position: relative;
+    width: 200px;
+    font-family: arial;
+    font-size: 14px;
+    color: #73808D;
+    mix-blend-mode: lighten;
+    line-height: 18px;
+}
+@media (max-width: 480px) {
+    body {
+        background-color: rgba(229, 229, 229, .3);
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    #your-name{
+        font-size: 20px;
+    }
+    header div p{
+        font-size:15px;
+    }
+   body h3{
+        font-size: 16px;
+       
+    }
+    .container,header {
+        padding: 20px;
+    }
+    .container .right-content{
+        font-size: 12px;
+        margin-left:15px;
+        padding-left: 5px;;
+        
+    }
+    
+   }
