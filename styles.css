@@ -1,6 +1,9 @@
-body{
+main{
     margin-left: 20%;
     margin-right: 20%;
+}
+body{
+    background-color: #E5E5E5;
 }
 
 header{
@@ -8,8 +11,8 @@ header{
     flex-direction: row;
     justify-content: space-between;
     padding: 20px 48px 20px 48px;
-    background-color: rgb(247,247,247);
-    border-bottom: 3px solid white;
+    background-color: white;
+    border-bottom: 1px solid rgb(241, 237, 237);
     position: sticky;
     top:0;
     z-index: 100;
@@ -39,7 +42,7 @@ h2{
     font-family: arial;
     color: #73808D;
     font-style: normal;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     font-weight: normal;
     margin-bottom: -10px;
 }
@@ -57,7 +60,7 @@ img{
     justify-content: space-between;
     padding-left: 48px;
     padding-right: 48px;
-    background-color: rgba(229, 229, 229, .3);
+    background-color: rgba(255, 255, 255, 1);
 }
 .sub-headline{
     font-size: 11px;
@@ -75,12 +78,11 @@ img{
     width: 200px;
     font-family: arial;
     font-size: 14px;
-    color: #73808D;
-    mix-blend-mode: lighten;
+    color: #aab0b9;
     line-height: 18px;
 }
 @media (max-width: 480px) {
-    body {
+    main {
         background-color: rgba(229, 229, 229, .3);
         margin-left: 2px;
         margin-right: 2px;
@@ -91,7 +93,7 @@ img{
     header div p{
         font-size:15px;
     }
-   body h3{
+   main h3{
         font-size: 16px;
        
     }
